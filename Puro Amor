@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalipso Puro Amor - Grupo Musical</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-color3 text-gray-900">
+    <!-- Header -->
+    <header class="bg-color1 text-white text-center py-10">
+        <h1 class="text-4xl font-bold">Khalipso Puro Amor 🎶</h1>
+        <p class="mt-2">¡Lleva la mejor música a tu evento! 🎤💃</p>
+        <a href="#precio" class="mt-4 inline-block bg-color4 text-white py-2 px-6 rounded-lg shadow-md">Contrátanos Ahora</a>
+    </header>
+
+    <!-- Que te ofrecemos -->
+    <section class="container mx-auto py-10 text-center">
+        <h2 class="text-3xl font-bold text-color1">Nuestros Servicios</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <div class="bg-white p-6 rounded-lg shadow-md border">
+                <h3 class="text-xl font-semibold">🎸 Música en Vivo</h3>
+                <p>Disfruta de nuestra música en directo con repertorio variado.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md border">
+                <h3 class="text-xl font-semibold">💿 Pantallas 3D</h3>
+                <p>Ambienta tu evento con los mejores diseños y colores.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md border">
+                <h3 class="text-xl font-semibold">🎤 Animación y Show</h3>
+                <p>¡Nos encargamos de la diversión y la energía del evento!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Director Musical -->
+    <section class="container mx-auto py-10 bg-color3">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-6">
+            <img src="musico.jpg" alt="Músico" class="w-48 h-48 mx-auto rounded-full">
+            <div>
+                <h2 class="text-3xl font-bold text-color1">Director Musical: Miguel Orellana</h2>
+                <p class="mt-2">Con más de 20 años de experiencia, nuestro grupo musical ha animado bodas, fiestas y eventos corporativos. ¡Déjanos hacer de tu celebración un momento inolvidable! 🎶</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repertorio Musical -->
+    <section class="container mx-auto py-10 text-center">
+        <h2 class="text-3xl font-bold text-color1">Repertorio Musical</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <div class="bg-white p-4 rounded-lg shadow-md border">🎵 Cumbia</div>
+            <div class="bg-white p-4 rounded-lg shadow-md border">🎵 Salsa</div>
+            <div class="bg-white p-4 rounded-lg shadow-md border">🎵 Cumbia Sureña</div>
+            <div class="bg-white p-4 rounded-lg shadow-md border">🎵 cumbia romantica</div>
+            <div class="bg-white p-4 rounded-lg shadow-md border">🎵 Rock en español</div>
+            <div class="bg-white p-4 rounded-lg shadow-md border">🎵 Baladas</div>
+        </div>
+    </section>
+
+    <!-- Preguntas Frecuentes -->
+    <section class="container mx-auto py-10 bg-color3">
+        <h2 class="text-3xl font-bold text-color1 text-center">Preguntas Frecuentes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-white p-4 rounded-lg shadow-md border">¿En qué ciudades tocan?</div>
+            <div class="bg-white p-4 rounded-lg shadow-md border">¿Qué duración tiene cada presentación?</div>
+            <div class="bg-white p-4 rounded-lg shadow-md border">¿Se pueden solicitar canciones específicas?</div>
+            <div class="bg-white p-4 rounded-lg shadow-md border">¿Qué equipo de sonido utilizan?</div>
+        </div>
+    </section>
+
+    <!-- Precio -->
+    <section id="precio" class="container mx-auto py-10 text-center">
+        <h2 class="text-3xl font-bold text-color1">Precios y Reservas</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <div>
+                <p class="text-lg">Disfruta de nuestra música en vivo con paquetes personalizados según tu evento. ¡Calidad garantizada! 🎉</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md border">
+                <h3 class="text-2xl font-bold text-color4">Desde $1000 USD</h3>
+                <ul class="mt-4 text-left">
+                    <li>✅ Show en vivo</li>
+                    <li>✅ DJ incluido</li>
+                    <li>✅ Animación y luces</li>
+                    <li>✅ Pantallas 3D</li>
+                </ul>
+                <a href="https://webdecontratacion.com" target="_blank" class="mt-4 inline-block bg-color4 text-white py-2 px-6 rounded-lg shadow-md">Reservar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="container mx-auto py-10 text-center bg-color3">
+        <h2 class="text-3xl font-bold text-color1">Contacto</h2>
+        <p class="mt-2">¡Escríbenos para cotizar tu evento!</p>
+        <a href="mailto:mikyforever.30@gmail.com" class="mt-4 inline-block bg-color4 text-white py-2 px-6 rounded-lg shadow-md">Enviar Email</a>
+        <p class="mt-4 text-lg font-bold">📞 Llámanos: +591 71166098</p>
+    </section>
+</body>
+</html>
